@@ -1,0 +1,33 @@
+
+html, body {
+    height: 100%;
+    margin: 0
+}
+
+#bg {
+    position: absolute; 
+    z-index: -99; 
+    top: 0; 
+    left: 0;
+    background: url('/img/121748aed9fc4b40c8a4268c1c99726c.jpg') center center no-repeat;
+    background-size: cover; /* this HAS to be defined AFTER background image */
+    /* animation: breathe 104s linear infinite; */
+}
+
+#mask {
+    position: absolute; 
+    z-index: -98; 
+    top: 0; 
+    left: 0; 
+    background: white; 
+    display: none;
+}
+
+
+  
+@keyframes breathe {
+    0%   { background-size: 100% auto; }
+    50% { background-size: 110% auto; }
+    100% { background-size: 100% auto; }
+}
+  

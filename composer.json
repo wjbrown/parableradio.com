@@ -1,0 +1,9 @@
+{
+    "minimum-stability":"dev",
+    "require": {
+        "aws/aws-sdk-php": "^3.52",
+        "paragonie/easydb": "^2.6",
+        "wjbrown/proteus": "dev-master",
+        "vlucas/phpdotenv": "^2.5@dev"
+    }
+}

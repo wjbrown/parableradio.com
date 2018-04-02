@@ -1,0 +1,11 @@
+
+
+parables/*
+
+vendor/*
+node_modules/*
+www/img/*
+
+.env
+
+*~
