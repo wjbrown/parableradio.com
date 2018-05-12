@@ -5,7 +5,7 @@ require '../config/bootstrap.php';
 $last = isset($_GET['last']) ? $_GET['last'] : false;
 
 // if no previous id passed, start from the beginning
-if (!$last) {
+if (!$last || empty($last)) {
     $parable = $db->row('SELECT * FROM `parables` WHERE `name` = "Parable Radio"');
 }
 // otherwise, attempt to get the next one

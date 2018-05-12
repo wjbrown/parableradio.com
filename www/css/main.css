@@ -23,6 +23,35 @@ html, body {
     display: none;
 }
 
+.right {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height:100%;
+    width:20%;
+}
+
+.forward {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height:100%;
+    width:100%;
+    background:rgba(255,255,255,.2);
+    display:none;
+    text-align:center;
+    text-decoration:none;
+}
+
+.forward span {
+    font-size:64px;
+    padding:0;
+    height:64px;
+    color:white;
+    margin:0 10px;
+    font-weight:bold;
+    display:block;
+}
 
   
 @keyframes breathe {

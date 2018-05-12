@@ -17,7 +17,11 @@
 
         <div id="bg"></div>
         <div id="mask"></div>
-        
+        <div class="right">
+            <a href="#" class="forward">
+                <span>></a>
+            </div>
+        </div>
         <!-- Add your site or application content here -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="/howler/dist/howler.min.js"></script>
